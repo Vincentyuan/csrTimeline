@@ -31,12 +31,39 @@ $(document).ready(function () {
                 discription = list[i].discription;
                 articalLink = list[i].articalLink;
                 imagePath = list[i].imagePath;
-                var html = ' <div class="time-block row"> <div class="col-xs-5 "><span class="right" style="padding-top: 9px;">' + year + '</span> </div><div class="col-xs-2 "> <div class="time-point center-block" style="background-image: url(../' + imagePath + ');"></div></div><div class="col-xs-5 "> <div class="time-detail"> <p ><a href="'+articalLink+'"><span class="title">' + title + '</span></a><span class="right close-btn">X</span></p><p class="sm">Submitted by: <span class="blue">' + author + '</span></p> <p class="sm">Categories: <span class="blue">' + catalog + ' </span></p> <div class="hor-line xs"></div><div class="description">' + discription + '</div></div> </div>  </div>';
-                $(".time-blocks").append(html);
-            } 
+
+            }
         }).error(function () {
             alert("ajax return error");
         })
     }
-    loadJson();
+    //loadJson();
+    function createElementByEntity(entity){
+      var html = ' <div class="time-block row">'+
+                    '<div class="col-xs-5 ">'+
+                      '<span class="right" style="padding-top: 9px;">' + entity.year + '</span>'+
+                    ' </div>'+
+                    '<div class="col-xs-2 "> '+
+                      '<div class="time-point center-block" style="background-image: url(./' + entity.imagePath + ');"></div>'+
+                    '</div>'+
+                    '<div class="col-xs-5 "> '+
+                      '<div class="time-detail"> '+
+                        '<p><a href="'+entity.articalLink+'"><span class="title">' + entity.title + '</span></a><span class="right close-btn">X</span></p>'+
+                        '<p class="sm">Submitted by: <span class="blue">' + entity.author + '</span></p> <p class="sm">Categories: <span class="blue">' + entity.catalog + ' </span></p>'+
+                        ' <div class="hor-line xs"></div>'+
+                        '<div class="description">' + entity.discription + '</div></div> </div> </div>';
+      return html;
+
+    }
+
+    function loadData(){
+      var elementList = getRequiredData();
+      for(var i = 0 ; i < elementList.length ; i++){
+        var html = createElementByEntity(elementList[i]);
+        $(".time-blocks").append(html);
+      }
+    }
+
+    loadData();
+
 });
