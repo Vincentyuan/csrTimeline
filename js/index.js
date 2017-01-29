@@ -87,8 +87,8 @@ function removeAllTimeBlocks(){
   container.empty();
 }
 function filterApply(){
-  yearStart = parseInt($("#yearStart")["0"].value);
-  yearEnd =  parseInt($("#yearEnd")["0"].value);
+  yearStart = parseInt($("#yearStart")["0"].value) || -1;
+  yearEnd =  parseInt($("#yearEnd")["0"].value) ||-1;
   searchContext = $("#searchText")["0"].value;
   selectedCatalog = getSelectValues($("#catalogsTobeSelected"));
   removeAllTimeBlocks();
