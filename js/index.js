@@ -77,8 +77,9 @@ function initFilterBar(){
 
 function loadData(){
   var elementList = getRequiredData();
-  for(var i = 0 ; i < elementList.length ; i++){
-    var html = createElementByEntity(elementList[i]);
+  var sortedList = sortElementByYear(elementList);
+  for(var i = 0 ; i < sortedList.length ; i++){
+    var html = createElementByEntity(sortedList[i]);
     $(".time-blocks").append(html);
   }
 }
@@ -132,4 +133,17 @@ function cancelSeleced(select){
     }
   }
   */
+}
+function sortElementByYear(entityLists){
+    var len = entityLists.length;
+    for (var i = 0; i < len; i++) {
+        for (var j = 0; j < len - 1 - i; j++) {
+            if (entityLists[j].year > entityLists[j+1].year) {        //相邻元素两两对比
+                var temp = entityLists[j+1];        //元素交换
+                entityLists[j+1] = entityLists[j];
+                entityLists[j] = temp;
+            }
+        }
+    }
+    return entityLists;
 }
