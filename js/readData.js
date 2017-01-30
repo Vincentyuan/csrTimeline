@@ -13,13 +13,72 @@ function getRequiredData(){//yearStart, yearEnd, catalog,searchText){
 	return requestElement;
 }
 
-function isValidEntry(){//entity,yearStart,yearEnd,catalog,searchText){
+function isValidEntry(entity){//entity,yearStart,yearEnd,catalog,searchText){
 //check the entry is valid or not if yes then return true;
-	return true;
+	var isYearValid = true;
+	var isCatalogValid = true;
+	var isSearchValid = true;
+	//check catalog valid
+	if(selectedCatalog.length > 0){
+		var currentNodeCatalog = false;
+		if(typeof entity.catalog == "object"){
+			for (var i = 0; i < entity.catalog.length; i++) {
+				if(selectedCatalog.indexOf(entity.catalog[i])> -1){
+					currentNodeCatalog = true;
+				}
+			}
+		}else if (selectedCatalog.indexOf(entity.catalog)> -1) {
+			currentNodeCatalog = true;
+		}else {
+			currentNodeCatalog = false;
+		}
+		isCatalogValid = currentNodeCatalog;
+	}
+	//check year duration valid
+	if(yearStart != -1 || yearEnd != -1){
+		var currentNodeYear = false;
+		if( yearStart != -1 && yearEnd != -1){
+			if(entity.year >= yearStart && entity.year <= yearEnd){
+				currentNodeYear = true;
+			}else{
+				currentNodeYear = false;
+			}
+
+		}else {
+			if((yearStart != -1 && entity.year >= yearStart)||(yearEnd != -1 && entity.year <= yearEnd)){
+				currentNodeYear = true;
+			}else {
+				currentNodeYear = false;
+			}
+		}
+		isYearValid = currentNodeYear;
+	}
+	//check searchtext
+	if(searchContext != null){
+		if(entity.discription.indexOf(searchContext)>-1){
+			isSearchValid = true;
+		}else{
+			isSearchValid = false;
+		}
+	}
+	return isYearValid&&isCatalogValid&&isSearchValid;
 }
 //some functions for the filter
 function getCatalogs(){
-
+	var catalogs = [];
+	for (var i = 0; i < csrDataList.length; i++) {
+		if(typeof (csrDataList[i].catalog) == 'object'){
+			var currentCatalogs = csrDataList[i].catalog;
+			for (var j = 0; j < currentCatalogs.length; j++) {
+				if(catalogs.indexOf(currentCatalogs[j])<0){
+					catalogs.push(currentCatalogs[j]);
+				}
+			}
+		}else if (catalogs.indexOf(csrDataList[i].catalog) < 0) {
+			catalogs.push(csrDataList[i].catalog);
+		}
+	}
+ return catalogs;
 }
 function objCopy(obj){
 	return $.extend({}, obj);

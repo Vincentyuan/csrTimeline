@@ -6,9 +6,12 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <script src="lib/jquery-2.2.4.min.js"></script>
     <link rel="stylesheet" href="lib/bootstrap-3.3.0-dist/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
     <script src="lib/bootstrap-3.3.0-dist/dist/js/bootstrap.js"></script>
+    <script src="lib/bootstrap-select.js"></script>
     <script src="data/dataSample.js"></script>
     <script src="js/readData.js"></script>
+    <script src="js/filterbar.js"></script>
     <link href="stylesheets/frameStylesheet.css" rel="stylesheet">
     <script src="js/index.js"></script>
 </head>
@@ -16,6 +19,33 @@
 <body>
     <div class="container">
         <div class="row time-line">
+            <div class="search-group">
+                <!-- tools div for filter and search function  -->
+                <div class="form-group container-fluid">
+                    <div class="row">
+                        <label>Select Catalog:</label>
+                        <select id="catalogsTobeSelected" class="selectpicker" multiple> </select>
+                    </div>
+                    <div class="row">
+                        <label>year start : </label>
+                        <input id="yearStart" class="blue"> </div>
+                    <div class="row">
+                        <label>year end : </label>
+                        <input id="yearEnd"> </div>
+                    <div class="row">
+                        <label>key words : </label>
+                        <input id="searchText" > </div>
+                    <br>
+                    <div class="row search-btn">
+                        <div class="col-sm-6" style="padding-left:0px">
+                            <button onclick="filterApply();" class="btn blue-bkg center-block ">Apply</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button onclick="clearFilter();" class="btn blue-bkg center-block ">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="ver-line "></div>
             <div class="time-blocks container-fluid">
                 <!--<div class="time-block row">
@@ -34,8 +64,7 @@
                             <div class="description">kjsdhfasjkdfhsadljflsakdfjaklsdfjkla</div>
                         </div>
                     </div>
-                </div>-->
-            </div>
+                </div>--></div>
         </div>
     </div>
 </body>
