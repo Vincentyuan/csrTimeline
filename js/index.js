@@ -95,13 +95,13 @@ function filterApply(){
   loadData();
 }
 function clearFilter(){
-  window.location.reload();
-  /*
+  //window.location.reload();
+
   $("#yearStart")["0"].value = "";
   $("#yearEnd")["0"].value = "";
   $("#searchText")["0"].value = "";
   cancelSeleced($("#catalogsTobeSelected"));
-  */
+
 }
 function getSelectValues(select) {
   var result = [];
@@ -118,9 +118,12 @@ function getSelectValues(select) {
   return result;
 }
 function cancelSeleced(select){
+  select.selectpicker("deselectAll");
+  /*
   var result = [];
   var options = select && select["0"].options;
   var opt;
+
 
   for (var i=0, iLen=options.length; i<iLen; i++) {
     opt = options[i];
@@ -128,4 +131,5 @@ function cancelSeleced(select){
       opt.selected = false;
     }
   }
+  */
 }
