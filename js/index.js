@@ -138,8 +138,8 @@ function sortElementByYear(entityLists){
     var len = entityLists.length;
     for (var i = 0; i < len; i++) {
         for (var j = 0; j < len - 1 - i; j++) {
-            if (entityLists[j].year > entityLists[j+1].year) {        //相邻元素两两对比
-                var temp = entityLists[j+1];        //元素交换
+            if (entityLists[j].year > entityLists[j+1].year) {        //compare
+                var temp = entityLists[j+1];        //swap
                 entityLists[j+1] = entityLists[j];
                 entityLists[j] = temp;
             }

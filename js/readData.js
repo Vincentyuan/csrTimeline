@@ -22,9 +22,16 @@ function isValidEntry(entity){//entity,yearStart,yearEnd,catalog,searchText){
 	if(selectedCatalog.length > 0){
 		var currentNodeCatalog = false;
 		if(typeof entity.catalog == "object"){
-			for (var i = 0; i < entity.catalog.length; i++) {
-				if(selectedCatalog.indexOf(entity.catalog[i])> -1){
-					currentNodeCatalog = true;
+			// for (var i = 0; i < entity.catalog.length; i++) {
+			// 	if(selectedCatalog.indexOf(entity.catalog[i])> -1){
+			// 		currentNodeCatalog = true;
+			// 	}
+			// }
+			for (var i = 0; i < selectedCatalog.length; i++) {
+				for (var j = 0; j < entity.catalog.length; j++) {
+					if(entity.catalog[j].indexOf(selectedCatalog[i])> -1){
+						currentNodeCatalog = true;
+					}
 				}
 			}
 		}else if (selectedCatalog.indexOf(entity.catalog)> -1) {
