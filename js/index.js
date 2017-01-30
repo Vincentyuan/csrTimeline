@@ -103,6 +103,11 @@ function clearFilter(){
   $("#searchText")["0"].value = "";
   cancelSeleced($("#catalogsTobeSelected"));
 
+  removeAllTimeBlocks();
+  initFilterBar();
+  initGlobalVariavle();
+  loadData();
+
 }
 function getSelectValues(select) {
   var result = [];
@@ -120,19 +125,12 @@ function getSelectValues(select) {
 }
 function cancelSeleced(select){
   select.selectpicker("deselectAll");
-  /*
-  var result = [];
-  var options = select && select["0"].options;
-  var opt;
-
-
-  for (var i=0, iLen=options.length; i<iLen; i++) {
-    opt = options[i];
-    if (opt.selected) {
-      opt.selected = false;
-    }
-  }
-  */
+}
+function initGlobalVariavle(){
+    selectedCatalog = [];
+    yearStart = -1;
+    yearEnd = -1;
+    searchContext = "";
 }
 function sortElementByYear(entityLists){
     var len = entityLists.length;

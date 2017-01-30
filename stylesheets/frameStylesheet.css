@@ -796,7 +796,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url(../images/20160808_Collecteat-15.svg) !important;
+  /*background-image: url(../images/20160808_Collecteat-15.svg) !important;*/
   background-size: auto 80%;
   background-position: right 6px bottom 3px;
   background-repeat: no-repeat;
@@ -1481,7 +1481,7 @@ p.right {
   left: 0px;
   width: 30px;
   height: 90px;
-  background-image: url(20160808_Collecteat-21.svg);
+  /*background-image: url(20160808_Collecteat-21.svg);*/
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center;
