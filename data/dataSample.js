@@ -656,7 +656,547 @@ var csrDataList = [{
 	articalLink:"http://www.csrwire.com/press_releases/16210-Sue-Bee-and-The-Apprentice-Focus-on-the-American-Honey-Bee",
 	imagePath:"",
 	discription:"MULTIMEDIA AVAILABLE: http://www.businesswire.com/cgi-bin/mmg.cgi?eid=5325366"
-},
+},{
+ 	id: 059,
+ 	year:2014,
+ 	catalog:["Women","Health & Wellness"],
+ 	author:"Community Health Charities",
+ 	title:"Women’s Work is Never Done: Community Health Charities Urges Women Caregivers to Take Care of their Health at Home and in the Workplacee",
+ 	article:"WASHINGTON, Oct. 30 /CSRwire/ - Community Health Charities continues its focus on women’s health this month by emphasizing the role of women as caregivers and the many resources available to them through its network of member charities that can help manage their responsibilities, take care of their own health and lessen the impact at work. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/38436-Women-s-Work-is-Never-Done-Community-Health-Charities-Urges-Women-Caregivers-to-Take-Care-of-their-Health-at-Home-and-in-the-Workplace",
+ 	imagePath:"images/women.jpg",
+ 	discription:"Community Health Charities continues its focus on women’s health this month by emphasizing the role of women as caregivers and the many resources available to them through its network of member charities that can help manage their responsibilities, take care of their own health and lessen the impact at work. "
+ },{
+ 	id: 060,
+ 	year:2016,
+ 	catalog:["Women","Sustainability"],
+ 	author:"Swarovski",
+ 	title:"Swarovski Supports Trust Women Conference to Advance Women’s Rights and Tackle Slavery",
+ 	article:"For the third consecutive year Swarovski is supporting the Trust Women conference (November 30 – December 1), which brings together thought leaders and change makers to find real solutions to empower women and to fight slavery worldwide. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/39493-Swarovski-Supports-Trust-Women-Conference-to-Advance-Women-s-Rights-and-Tackle-Slavery",
+ 	imagePath:"images/women.jpg",
+ 	discription:"For the third consecutive year Swarovski is supporting the Trust Women conference (November 30 – December 1), which brings together thought leaders and change makers to find real solutions to empower women and to fight slavery worldwide."
+ },{
+ 	id: 061,
+ 	year:2007,
+ 	catalog:["Volunteerism"," Philanthropy & Corporate Contributions"],
+ 	author:"Points of Light",
+ 	title:"Target to Sponsor 2007 National Volunteer Week",
+ 	article:"WASHINGTON, D.C. - February 22, 2007 - The nation's premier volunteer recognition event has received a major supporter - Target. The retailer will be the exclusive sponsor of National Volunteer Week, a service of the Points of Light Foundation & Volunteer Center National Network.",
+ 	articalLink:"http://www.csrwire.com/press_releases/16768-Target-to-Sponsor-2007-National-Volunteer-Week",
+ 	imagePath:"images/Volunteerism.jpg",
+ 	discription:"The nation's premier volunteer recognition event has received a major supporter - Target. "
+ },{
+ 	id: 062,
+ 	year:2008,
+ 	catalog:["Volunteerism"],
+ 	author:"Deloitte",
+ 	title:"Deloitte Connects With Gen Y Recruits on Spring Break",
+ 	article:"Student and Employee Volunteers Help United Way Rebuild Gulf Coast During 'Maximum Impact.' Deloitte’s Alternative Spring Break Program",
+ 	articalLink:"http://www.csrwire.com/press_releases/21947-Deloitte-Connects-With-Gen-Y-Recruits-on-Spring-Break-",
+ 	imagePath:"images/Volunteerism.jpg",
+ 	discription:"Student and Employee Volunteers Help United Way Rebuild Gulf Coast During 'Maximum Impact.' Deloitte’s Alternative Spring Break Program "
+ },{
+ 	id: 063,
+ 	year:2009,
+ 	catalog:["Volunteerism","Corporate Social Responsibility"],
+ 	author:"Points of Light",
+ 	title:"President Obama's Budget Includes 10 Million Dollars to Volunteer Generation Fund",
+ 	article:" President Obama just announced his full budget for fiscal year 2010, and 10 million dollars is proposed to support the Volunteer Generation Fund, an important first step in growing and strengthening our nation's volunteer infrastructure, and an integral part of the President's call to service campaign. The Corporation for National and Community Service, an organization that engages more than four million Americans yearly in service through its Senior Corps, AmeriCorps, and Learn and Serve America programs, will be responsible for distributing the funds.",
+ 	articalLink:"http://www.csrwire.com/press_releases/16788-President-Obama-s-Budget-Includes-10-Million-Dollars-to-Volunteer-Generation-Fund",
+ 	imagePath:"images/Volunteerism.jpg",
+ 	discription:" President Obama just announced his full budget for fiscal year 2010, and 10 million dollars is proposed to support the Volunteer Generation Fund, an important first step in growing and strengthening our nation's volunteer infrastructure, and an integral part of the President's call to service campaign.  "
+ },{
+ 	id: 064,
+ 	year:2016,
+ 	catalog:["Volunteerism","Philanthropy & Corporate Contributions"],
+ 	author:"Sodexo",
+ 	title:"Sodexo Applauds University of Hawai‘i at Mānoa Team for Becoming First Food Recovery Certified Organization in the State",
+ 	article:" Sodexo, world leader in Quality of Life Services, today applauds the University of Hawaiʻi at Mānoa (UH Mānoa), its students and dining services staff for their work in diverting more than 1,000 pounds of safe, nutritious food from landfills to those at risk of hunger. Because of these efforts, the university recently became the first and only Food Recovery Certified chapter of the Food Recovery Network in the state. Mānoa Dining Services is managed by Sodexo, a company known for improving the communities in which it operates through sustainable practices and community outreach initiatives.",
+ 	articalLink:"http://www.csrwire.com/press_releases/38943-Sodexo-Applauds-University-of-Hawai-i-at-M-noa-Team-for-Becoming-First-Food-Recovery-Certified-Organization-in-the-State",
+ 	imagePath:"images/Volunteerism.jpg",
+ 	discription:"Mānoa Dining Services is managed by Sodexo, a company known for improving the communities in which it operates through sustainable practices and community outreach initiatives."
+ },{
+ 	id: 065,
+ 	year:2011,
+ 	catalog:["Research", "Reports & Publications","Technology"],
+ 	author:"MetaVu, Inc.",
+ 	title:"MetaVu Completes Independent Evaluation of Xcel Energy's SmartGridCity(TM)",
+ 	article:"DENVER , Dec. 15 /CSRwire/ - MetaVu, Inc., a leading sustainability and environmental performance consulting firm, today announced the public release of its evaluation of Xcel Energy’s SmartGridCity™ demonstration project in Boulder, Colorado.  The independent analysis was commissioned by Xcel Energy to measure and evaluate more than 60 value propositions related to service and infrastructure improvements and customer benefits. The SmartGridCity™ evaluation is available through the Colorado Public Utilities Commission. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/33515-MetaVu-Completes-Independent-Evaluation-of-Xcel-Energy-s-SmartGridCity-TM-",
+ 	imagePath:"images/Technology.jpg",
+ 	discription:"The independent analysis was commissioned by Xcel Energy to measure and evaluate more than 60 value propositions related to service and infrastructure improvements and customer benefits. "
+ },{
+ 	id: 066,
+ 	year:2016,
+ 	catalog:[" Philanthropy & Corporate Contributions","Technology"],
+ 	author:"Benevity",
+ 	title:"Benevity Supports the Launch of Apple Pay for Charities",
+ 	article:"CALGARY, Alberta, Nov. 14 /CSRwire/ -  Benevity, Inc., the global leader in online workplace giving, matching, volunteering and community investment software, is pleased to announce our supporting role in the launch of Apple Pay for charities – an easy, secure and private way to make and accept donations that’s fast and convenient.  ",
+ 	articalLink:"http://www.csrwire.com/press_releases/39456-Benevity-Supports-the-Launch-of-Apple-Pay-for-Charities",
+ 	imagePath:"images/Technology.jpg",
+ 	discription:"The the global leader in online workplace giving, matching, volunteering and community investment software, is pleased to announce our supporting role in the launch of Apple Pay for charities – an easy"
+ },{
+         id: 067,
+ 	year:2013,
+ 	catalog:["Sustainability","Technology"],
+ 	author:"Global e-Sustainability Initiative (GeSI)",
+ 	title:"Showcasing Information and Communication Technology Solutions, UN Climate Change Secretariat Launches New Partnership with GeSI",
+ 	article:"WARSAW, Poland, Nov. 25 /CSRwire/ - The UN Climate Change secretariat launched a new partnership with the Global e-Sustainability Initiative (GeSI) today to underscore the critical role Information and Communication Technology (ICT) plays in tackling climate change.",
+ 	articalLink:"http://www.csrwire.com/press_releases/36442-Showcasing-Information-and-Communication-Technology-Solutions-UN-Climate-Change-Secretariat-Launches-New-Partnership-with-GeSI",
+ 	imagePath:"images/Technology.jpg",
+ 	discription:"The UN Climate Change secretariat launched a new partnership with the Global e-Sustainability Initiative (GeSI) today to underscore the critical role Information and Communication Technology (ICT) plays in tackling climate change."
+ },{
+         id: 068,
+ 	year:2014,
+ 	catalog:["Green Building","Technology"],
+ 	author:"Sustainable Minds LLC",
+ 	title:"Sustainable Minds and TOTO Accelerate Impactful Innovation in Product Transparency Reporting to Drive Greener Purchase Decisions by Making Environmental Performance Information Understandable and Meaningful",
+ 	article:"Sustainable Minds (SM), a cloud software and services company whose mission is to operationalize environmental performance in product development and manufacturing, continued to demonstrate market leadership by launching today ten new SM Transparency Reports™ from TOTO, the largest plumbing manufacturer in the world, for select high-efficiency commercial products, showcasing 15 products across four categories. TOTO's SM Transparency Reports, verified by NSF, can be viewed in the TOTO Showroom, in the SM Manufacturers Showroom.",
+ 	articalLink:"http://www.csrwire.com/press_releases/37455-Sustainable-Minds-and-TOTO-Accelerate-Impactful-Innovation-in-Product-Transparency-Reporting-to-Drive-Greener-Purchase-Decisions-by-Making-Environmental-Performance-Information-Understandable-and-Meaningful-",
+ 	imagePath:"images/Technology.jpg",
+ 	discription:"Sustainable Minds (SM), a cloud software and services company whose mission is to operationalize environmental performance in product development and manufacturing, continued to demonstrate market leadership by launching today ten new SM Transparency Reports™ from TOTO. "
+ },{
+         id: 069,
+ 	year:2016,
+ 	catalog:["Environment","Sustainability"],
+ 	author:"The Bee Informed Partnership",
+ 	title:"No Bees No Thanksgiving",
+ 	article:"In time for Thanksgiving and the holidays, the Bee Informed Partnership (BIP), the most trusted source of data on the health of America's honey bees, has launched a campaign to raise public awareness of the vital roles that honey bees and beekeepers play in pollinating and producing many of the foods we love -- especially at this time of year.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39443-No-Bees-No-Thanksgiving",
+ 	imagePath:"images/Sustainability.jpg",
+ 	discription:"In time for Thanksgiving and the holidays, the Bee Informed Partnership (BIP), the most trusted source of data on the health of America's honey bees, has launched a campaign to raise public awareness of the vital roles that honey bees and beekeepers play in pollinating and producing many of the foods we love "
+ },{
+         id: 070,
+ 	year:2000,
+ 	catalog:["Sustainability","Corporate Social Responsibility"],
+ 	author:"SustainAbility",
+ 	title:"Pioneer Consulting Firm on Corporate Social Responsibility Convenes Leaders in the Field to Discuss Next 20 Years",
+ 	article:"LONDON, Feb. 22 /CSRwire/ - February 22, 2008 - SustainAbility, a top strategic business consulting and research center with a growing presence in Washington, D.C., will hold a symposium with experts on what the future looks like for sustainability and corporate social responsibility over the next 20 years, now that these concepts have achieved wide recognition in the business world.",
+ 	articalLink:"http://www.csrwire.com/press_releases/16950-Pioneer-Consulting-Firm-on-Corporate-Social-Responsibility-Convenes-Leaders-in-the-Field-to-Discuss-Next-20-Years-",
+ 	imagePath:"images/Sustainability.jpg",
+ 	discription:"SustainAbility, a top strategic business consulting and research center with a growing presence in Washington, D.C., will hold a symposium with experts on what the future looks like for sustainability and corporate social responsibility over the next 20 years, now that these concepts have achieved wide recognition in the business world. "
+ },{
+         id: 071,
+ 	year:2008,
+ 	catalog:["Sustainability","Corporate Social Responsibility"],
+ 	author:"Alcoa Inc.",
+ 	title:"Alcoa Wheel and Transportation Products Proudly Celebrates 60 Years of Innovation",
+ 	article:"CLEVELAND - March 27, 2008 - Alcoa Wheel and Transportation Products, a Cleveland, Ohio-based business unit of Alcoa Inc. (NYSE:AA) announces the kick-off of its 60th anniversary, a year-long celebration of wheel innovation. Today, Alcoa is the world's leading supplier of forged aluminum wheels with more vehicles fitted with Alcoa forged aluminum wheels than any other brand.",
+ 	articalLink:"http://www.csrwire.com/press_releases/26737-Alcoa-Wheel-and-Transportation-Products-Proudly-Celebrates-60-Years-of-Innovation",
+ 	imagePath:"images/Sustainability.jpg",
+ 	discription:" Alcoa Wheel and Transportation Products, a Cleveland, Ohio-based business unit of Alcoa Inc. (NYSE:AA) announces the kick-off of its 60th anniversary, a year-long celebration of wheel innovation. "
+ },{
+         id: 072,
+ 	year:2011,
+ 	catalog:["Corporate Social Responsibility","Sustainability"],
+ 	author:"Kimberly-Clark Corporation",
+ 	title:"Kimberly-Clark Recognized Again as a Top Corporate Citizen",
+ 	article:"DALLAS, Mar. 08 /CSRwire/ - For the third consecutive year, Kimberly-Clark Corporation (NYSE:KMB) has been recognized as one of the '100 Best Corporate Citizens' by Corporate Responsibility Magazine. Kimberly-Clark ranked eighth in the 2011 listing, making it the top-rated non-food consumer products company on the magazine's list.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39443-No-Bees-No-Thanksgiving",
+ 	imagePath:"images/Sustainability.jpg",
+ 	discription:"Kimberly-Clark ranked eighth in the 2011 listing, making it the top-rated non-food consumer products company on the magazine's list."
+ },{
+         id: 073,
+ 	year:2016,
+ 	catalog:["Stakeholder Engagement","Corporate Social Responsibility"],
+ 	author:"Sherpa Sustainability Institute",
+ 	title:"SHERPA Sustainability Institute Unveils 3rd Open-Source Tutorial - Social Media for Stakeholder Engagement and CISR® Certification Course",
+ 	article:"DURANGO, Colo., Oct. 19 /CSRwire/ -  SHERPA Sustainability Institute has just released the third installment of a complimentary Voice of the Stakeholder (VOS) Online Tutorial Series, focused on Social Media for Stakeholder Engagement. Since launching the series in September, the response has been tremendous.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39379-SHERPA-Sustainability-Institute-Unveils-3rd-Open-Source-Tutorial-Social-Media-for-Stakeholder-Engagement-and-CISR-Certification-Course",
+ 	imagePath:"images/StakeholderEngagement.jpg",
+ 	discription:" SHERPA Sustainability Institute has just released the third installment of a complimentary Voice of the Stakeholder (VOS) Online Tutorial Series, focused on Social Media for Stakeholder Engagement. "
+ },{
+         id: 074,
+ 	year:2015,
+ 	catalog:["Sustainability","Stakeholder Engagement"],
+ 	author:"Global Sustain Limited (Ltd.)",
+ 	title:"Global Sustain Annual Members Meeting",
+ 	article:"ATHENS, Dec. 23 /CSRwire/ - A few days before the New Year, Global Sustain concluded the annual members meeting. The special event took place on Friday, December 19, at the Athens Hilton, Greece.",
+ 	articalLink:"http://www.csrwire.com/press_releases/37584-Global-Sustain-Annual-Members-Meeting",
+ 	imagePath:"images/StakeholderEngagement.jpg",
+ 	discription:"A few days before the New Year, Global Sustain concluded the annual members meeting. "
+ },{
+         id: 075,
+ 	year:2012,
+ 	catalog:["Corporate Social Responsibility","Stakeholder Engagement"],
+ 	author:"JPMorgan Chase & Co.",
+ 	title:"Global Cities Initiative To Host 2013 Forums In Atlanta, Houston, Dallas, Denver and Mexico City",
+ 	article:"NEW YORK, Nov. 02 /CSRwire/ - The Global Cities Initiative today announced its 2013 schedule of forums, bringing business, civic and government leaders together to explore how their metropolitan areas can better compete in the global economy. In its second year, Global Cities will continue to equip these leaders with information and policy ideas, catalyze action, and build an international network  of metropolitan leaders whose regions ultimately trade, invest, and grow together.",
+ 	articalLink:"http://www.csrwire.com/press_releases/34827-Global-Cities-Initiative-To-Host-2013-Forums-In-Atlanta-Houston-Dallas-Denver-and-Mexico-City",
+ 	imagePath:"images/StakeholderEngagement.jpg",
+ 	discription:"The Global Cities Initiative today announced its 2013 schedule of forums, bringing business, civic and government leaders together to explore how their metropolitan areas can better compete in the global economy. "
+ },{
+         id: 076,
+ 	year:2014,
+ 	catalog:["Stakeholder Engagement","Finance"],
+ 	author:"Calvert",
+ 	title:"Calvert Social Index Actions",
+ 	article:"BETHESDA, Md., Mar. 06 /CSRwire/ - Calvert’s Sustainability Research Department has submitted the following recommendation regarding action within the Calvert Social Index®. If approved, the recommendation will be effective when the Calvert Social Index Committee convenes its quarterly meeting later this month.",
+ 	articalLink:"http://www.csrwire.com/press_releases/36781-Calvert-Social-Index-Actions",
+ 	imagePath:"images/StakeholderEngagement.jpg",
+ 	discription:"Calvert’s Sustainability Research Department has submitted the following recommendation regarding action within the Calvert Social Index®."
+ },{
+ 	id:077,
+ 	year:2016,
+ 	catalog:["Corporate Social Responsibility", "Socially Responsible Investing"],
+ 	author:"Holy Land Principles, Inc",
+ 	title:"Holy Land Principles Reaches Agreement with the Corning Company",
+ 	article:"WASHINGTON, Dec. 21 /CSRwire/ - An organization that campaigns for fair employment by American companies doing business in Israel/Palestine has agreed to withdraw the Shareholder Resolution it filed for inclusion in Corning’s 2017 proxy statement because Corning has agreed to publish a breakdown of its workforce in that area.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39557-Holy-Land-Principles-Reaches-Agreement-with-the-Corning-Company",
+ 	imagePath:"images/SRI.jpg",
+ 	discription:"An organization that campaigns for fair employment by American companies doing business in Israel/Palestine has agreed to withdraw the Shareholder Resolution it filed for inclusion in Corning’s 2017 proxy statement because Corning has agreed to publish a breakdown of its workforce in that area."
+ },{
+ 	id:078,
+ 	year:2014,
+ 	catalog:["Socially Responsible Investing", "Corporate Social Responsibility"],
+ 	author:"EIRIS Conflict Risk Network",
+ 	title:"Investment Watch: Burma/Myanmar Service Examines Conflict Risks",
+ 	article:"WASHINGTON, May 19 /CSRwire/ - In conjunction with this week’s first anniversary of the U.S. government’s Burma Responsible Investment Reporting Requirements taking effect, EIRIS Conflict Risk Network is launching Investment Watch: Burma/Myanmar, a new service designed to help investors make sound judgments about how companies are managing the risks related to doing business in the conflict-affected country.",
+ 	articalLink:"http://www.csrwire.com/press_releases/37077-Investment-Watch-Burma-Myanmar-Service-Examines-Conflict-Risks",
+ 	imagePath:"images/SRI.jpg",
+ 	discription:"Burma/Myanmar, a new service designed to help investors make sound judgments about how companies are managing the risks related to doing business in the conflict-affected country."
+ },{
+ 	id:079,
+ 	year:2000,
+ 	catalog:["Socially Responsible Investing", "Ratings & Awards"],
+ 	author:"Barrick Gold Corporation",
+ 	title:"Barrick Gold Named to Dow Jones Sustainability World Index",
+ 	article:"Barrick Gold Corporation has been listed on the annual Dow Jones Sustainability Index (DJSI) - World for the first time, ranking the company as a global leader in corporate social responsibility.",
+ 	articalLink:"http://www.csrwire.com/press_releases/16008-Barrick-Gold-Named-to-Dow-Jones-Sustainability-World-Index-",
+ 	imagePath:"images/SRI.jpg",
+ 	discription:"Barrick Gold Corporation has been listed on the annual Dow Jones Sustainability Index (DJSI) - World for the first time, ranking the company as a global leader in corporate social responsibility."
+ },{
+ 	id:080,
+ 	year:2007,
+ 	catalog:["Socially Responsible Investing"],
+ 	author:"xinyu",
+ 	title:"Malaysian Social Stocks Beat the Market",
+ 	article:"KUALA LUMPUR AND SINGAPORE- February 5, 2007 - Share prices in companies that practice good Corporate Socially Responsibility (CSR) have out-stripped the recent bull-run on the KLCI according to OWW Consulting, a specialist CSR company based in Kuala Lumpur and Singapore.",
+ 	articalLink:"http://www.csrwire.com/press_releases/16684-Malaysian-Social-Stocks-Beat-the-Market",
+ 	imagePath:"images/SRI.jpg",
+ 	discription:"KUALA LUMPUR AND SINGAPORE- February 5, 2007 - Share prices in companies that practice good Corporate Socially Responsibility (CSR) have out-stripped the recent bull-run on the KLCI according to OWW Consulting, a specialist CSR company based in Kuala Lumpur and Singapore."
+ },{
+ 	id:081,
+ 	year:2016,
+ 	catalog:["Social Entrepreneurship", "Research", "Reports & Publications"],
+ 	author:"B Lab",
+ 	title:"B Lab Releases Measurement Tool Designed Specifically For Educational Products and Services Companies",
+ 	article:"BERWYN, Pa.,, Sep. 14 /CSRwire/ -  B Lab, a non-profit organization, has launched a customized version of their B Impact Assessment to measure and manage the impact of educational products and service companies. The new standards—which focus on product development, delivery of positive student outcomes, transparency, and data privacy—are designed for companies of all stages and sizes and can be used free and confidentially at www.bimpactassessment.net.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39276-B-Lab-Releases-Measurement-Tool-Designed-Specifically-For-Educational-Products-and-Services-Companies",
+ 	imagePath:"images/SocialEntrepreneurship.jpg",
+ 	discription:"BERWYN, Pa.,, Sep. 14 /CSRwire/ -  B Lab, a non-profit organization, has launched a customized version of their B Impact Assessment to measure and manage the impact of educational products and service companies. The new standards—which focus on product development, delivery of positive student outcomes, transparency, and data privacy—are designed for companies of all stages and sizes and can be used free and confidentially at www.bimpactassessment.net."
+ },{
+ 	id:082,
+ 	year:2015,
+ 	catalog:["Social Entrepreneurship", "Corporate Social Responsibility"],
+ 	author:"Oliver Russell",
+ 	title:"How To Build A Purpose-Driven Company",
+ 	article:"BOISE, Idaho, Oct. 07 /CSRwire/ -  Oliver Russell announced today it is publishing a three-part white paper series called 'How to Build a Purpose-Driven Company,' the first installment of which can now be found on the company’s website.",
+ 	articalLink:"http://www.csrwire.com/press_releases/38361-How-To-Build-A-Purpose-Driven-Company",
+ 	imagePath:"images/SocialEntrepreneurship.jpg",
+ 	discription:"BOISE, Idaho, Oct. 07 /CSRwire/ -  Oliver Russell announced today it is publishing a three-part white paper series called 'How to Build a Purpose-Driven Company,' the first installment of which can now be found on the company’s website."
+ },{
+ 	id:083,
+ 	year:2011,
+ 	catalog:["Social Entrepreneurship", "Corporate Governance"],
+ 	author:"Social Enterprise Alliance",
+ 	title:"Social Enterprise Alliance Selects New CEO",
+ 	article:"WASHINGTON, D.C., Jun. 13 /CSRwire/ - Kevin Lynch, long-time Board member and current Vice Chair, has been selected to take over from Lisa Nitze as the President and CEO of the Social Enterprise Alliance (SEA). Due to family commitments, Nitze is stepping away from the CEO role, but remains deeply committed to the work of SEA and the field of social enterprise by joining SEA's Board.",
+ 	articalLink:"http://www.csrwire.com/press_releases/32438-Social-Enterprise-Alliance-Selects-New-CEO",
+ 	imagePath:"images/SocialEntrepreneurship.jpg",
+ 	discription:"WASHINGTON, D.C., Jun. 13 /CSRwire/ - Kevin Lynch, long-time Board member and current Vice Chair, has been selected to take over from Lisa Nitze as the President and CEO of the Social Enterprise Alliance (SEA). Due to family commitments, Nitze is stepping away from the CEO role, but remains deeply committed to the work of SEA and the field of social enterprise by joining SEA's Board."
+ },{
+ 	id:084,
+ 	year:2012,
+ 	catalog:["Fair Trade & Supply Chain", "Social Entrepreneurship"],
+ 	author:"UL",
+ 	title:"UL Responsible Sourcing Introduces Corrective and Preventive Action Tool To Help Manage Workplace Improvements",
+ 	article:"LOS ANGELES, Mar. 26 /CSRwire/ - UL’s Responsible Sourcing group, a leading global provider of corporate responsibility auditing and consulting services, today announced the introduction of its Corrective and Preventive Action (CAPA) System to help manage and track improvements in manufacturing processes and responsible workplace systems throughout the supply chain. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/33933-UL-Responsible-Sourcing-Introduces-Corrective-and-Preventive-Action-Tool-To-Help-Manage-Workplace-Improvements",
+ 	imagePath:"images/SocialEntrepreneurship.jpg",
+ 	discription:"LOS ANGELES, Mar. 26 /CSRwire/ - UL’s Responsible Sourcing group, a leading global provider of corporate responsibility auditing and consulting services, today announced the introduction of its Corrective and Preventive Action (CAPA) System to help manage and track improvements in manufacturing processes and responsible workplace systems throughout the supply chain. "
+ },{
+ 	id:085,
+ 	year:2002,
+ 	catalog:["Business Ethics", "Research, Reports & Publications"],
+ 	author:"Article13 Group Ltd",
+ 	title:"Article 13 L'Oréal Best Practice Case Study and Expert View Reveals Insights",
+ 	article:"The 'Natural' Trend in the Cosmetics Industry - an Opportunity for Innovation",
+ 	articalLink:"http://www.csrwire.com/press_releases/13824-Article-13-L-Or-al-Best-Practice-Case-Study-and-Expert-View-Reveals-Insights",
+ 	imagePath:"images/RRP.jpg",
+ 	discription:"LONDON, England - The natural look, the natural feel, the naturally based, nature-inspired product...there is no doubt that the word 'natural' is being used to describe a plethora of beauty and skincare products on the shelves today. "
+ },{
+ 	id:086,
+ 	year:2016,
+ 	catalog:["Research, Reports & Publications", "Human Rights"],
+ 	author:"Ethical Corporation",
+ 	title:"Human Rights Challenges for Business in 2017 – Complementary Briefing",
+ 	article:"LONDON, Dec. 14 /CSRwire/ - Claiming ignorance is not an option anymore and Human rights standards and due diligence demand is just increasing. But how is the landscape evolving, and what does it mean for corporate risk?",
+ 	articalLink:"http://www.csrwire.com/press_releases/39530-Human-Rights-Challenges-for-Business-in-2017-Complementary-Briefing",
+ 	imagePath:"images/RRP.jpg",
+ 	discription:"LONDON, Dec. 14 /CSRwire/ - Claiming ignorance is not an option anymore and Human rights standards and due diligence demand is just increasing. But how is the landscape evolving, and what does it mean for corporate risk?"
+ },{
+ 	id:087,
+ 	year:2007,
+ 	catalog:["Research, Reports & Publications","Ratings & Awards"],
+ 	author:"Innovest Strategic Value Advisors, Inc.",
+ 	title:"Innovest Upgrades IVA Rating of Dupont",
+ 	article:"New York--Innovest Strategic Value Advisors has upgraded its Intangible Value Assessment of DuPont based on improvements in its social environmental and strategic governance (ESG) performance.",
+ 	articalLink:"http://www.csrwire.com/press_releases/22982-Innovest-Upgrades-IVA-Rating-of-Dupont",
+ 	imagePath:"images/RRP.jpg",
+ 	discription:"New York--Innovest Strategic Value Advisors has upgraded its Intangible Value Assessment of DuPont based on improvements in its social environmental and strategic governance (ESG) performance."
+ },{
+ 	id:088,
+ 	year:2000,
+ 	catalog:["Sustainability", "Research, Reports & Publications"],
+ 	author:"Allstate Corporation",
+ 	title:"Allstate Issues 2009 Social Responsibility Report",
+ 	article:"NORTHBROOK, Ill., Jun. 09 /CSRwire/ - /PRNewswire-FirstCall/ - Allstate Insurance Company, (NYSE: ALL), announced today the release of its 2009 social responsibility report, 'When Good Hands® People Give Back…' at Allstate.com.",
+ 	articalLink:"http://www.csrwire.com/press_releases/29798-Allstate-Issues-2009-Social-Responsibility-Report",
+ 	imagePath:"images/RRP.jpg",
+ 	discription:"NORTHBROOK, Ill., Jun. 09 /CSRwire/ - /PRNewswire-FirstCall/ - Allstate Insurance Company, (NYSE: ALL), announced today the release of its 2009 social responsibility report, 'When Good Hands® People Give Back…' at Allstate.com."
+ },{
+ 	id:089,
+ 	year:2016,
+ 	catalog:["Renewable & Alternative Energy", "Environment"],
+ 	author:"3Degrees",
+ 	title:"3Degrees Joins RECS International",
+ 	article:"SAN FRANCISCO, Dec. 15 /CSRwire/ - 3Degrees is pleased to announce that we have joined RECS International, an organization committed to building global renewable energy markets that are standardized, transparent and most importantly, consumer-driven.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39537-3Degrees-Joins-RECS-International",
+ 	imagePath:"images/RAE.jpg",
+ 	discription:"SAN FRANCISCO, Dec. 15 /CSRwire/ - 3Degrees is pleased to announce that we have joined RECS International, an organization committed to building global renewable energy markets that are standardized, transparent and most importantly, consumer-driven."
+ },{
+ 	id:090,
+ 	year:2015,
+ 	catalog:["Research, Reports & Publications", "Renewable & Alternative Energy"],
+ 	author:"General Motors Corporation",
+ 	title:"GM Employees on Mission to Transform Transportation",
+ 	article:"DETROIT, May 08 /CSRwire/ - General Motors’ just-released sustainability report chronicles efforts by the company’s 216,000 employees to live out GM’s newly defined purpose and values by earning customer loyalty, applying meaningful technology advances and improving the communities where it does business.",
+ 	articalLink:"http://www.csrwire.com/press_releases/37939-GM-Employees-on-Mission-to-Transform-Transportation",
+ 	imagePath:"images/RAE.jpg",
+ 	discription:"DETROIT, May 08 /CSRwire/ - General Motors’ just-released sustainability report chronicles efforts by the company’s 216,000 employees to live out GM’s newly defined purpose and values by earning customer loyalty, applying meaningful technology advances and improving the communities where it does business."
+ },{
+ 	id:091,
+ 	year:2000,
+ 	catalog:["Renewable & Alternative Energy", "Academia"],
+ 	author:"Solar Center",
+ 	title:"The Solar Center, Inc. acquires Sunwave Technologies in Long Island Expansion",
+ 	article:"Denville, N.J., May 08 /CSRwire/ - Denville, New Jersey - May 8, 2007 - The Solar Center, Inc. (TSC) announced today that it has acquired the solar energy business of Sunwave Enterprises, a leading provider of solar energy systems in Long Island. Combined with TSC's existing operations in New Jersey, New York and Connecticut, this combination will allow the company to service most of the region surrounding New York City.",
+ 	articalLink:"http://www.csrwire.com/press_releases/15814-The-Solar-Center-Inc-acquires-Sunwave-Technologies-in-Long-Island-Expansion",
+ 	imagePath:"images/RAE.jpg",
+ 	discription:"Denville, N.J., May 08 /CSRwire/ - Denville, New Jersey - May 8, 2007 - The Solar Center, Inc. (TSC) announced today that it has acquired the solar energy business of Sunwave Enterprises, a leading provider of solar energy systems in Long Island. Combined with TSC's existing operations in New Jersey, New York and Connecticut, this combination will allow the company to service most of the region surrounding New York City."
+ },{
+ 	id:092,
+ 	year:2007,
+ 	catalog:["Environment", "Renewable & Alternative Energy"],
+ 	author:"Nurture New York's Nature",
+ 	title:"Kheel To Speak On New Transit Initiatives To Address Global Warming",
+ 	article:"New York, NY - Tuesday, February 6, 2007 - Ted Kheel, who has sought to advance mass transit for over fifty years, will be speaking on February 8, at an exhibit reception in the Conde Nast Building.",
+ 	articalLink:"http://www.csrwire.com/press_releases/16208-Kheel-To-Speak-On-New-Transit-Initiatives-To-Address-Global-Warming",
+ 	imagePath:"images/RAE.jpg",
+ 	discription:"New York, NY - Tuesday, February 6, 2007 - Ted Kheel, who has sought to advance mass transit for over fifty years, will be speaking on February 8, at an exhibit reception in the Conde Nast Building."
+ },{
+ 	id:093,
+ 	year:2007,
+ 	catalog:["Ratings & Awards"],
+ 	author:"Tech Museum of Innovation",
+ 	title:"The Tech Museum of Innovation Honors Gordon Moore with the 2007 Global Humanitarian Award",
+ 	article:"Intel Co-Founder Selected for His Contributions to Global Environmental Conservation, Science, Higher Education and Quality of Life",
+ 	articalLink:"http://www.csrwire.com/press_releases/19818-The-Tech-Museum-of-Innovation-Honors-Gordon-Moore-with-the-2007-Global-Humanitarian-Award",
+ 	imagePath:"images/RA.jpg",
+ 	discription:"Intel Co-Founder Selected for His Contributions to Global Environmental Conservation, Science, Higher Education and Quality of Life"
+ },{
+ 	id:094,
+ 	year:2011,
+ 	catalog:["Human Resources & Diversity", "Ratings & Awards"],
+ 	author:"Sheetz",
+ 	title:"Sheetz Named Among Best Places to Work in PA for 10th Year in a Row",
+ 	article:"ALTOONA, Pa., Oct. 31 /CSRwire/ - /PRNewswire/ - Sheetz, Inc., announced today it has been named one of 2011's Best Places to Work in Pennsylvania. This is the tenth year in a row Sheetz has made the list as part of a statewide employer recognition program sponsored by The Pennsylvania Foundation, the Pennsylvania Department of Community and Economic Development and the Central Penn Business Journal. Sheetz is one of only three companies to have the honor of making the list for ten straight years. The awards program, created in 2000, is one of the first statewide programs of its kind in the country to recognize the best places to be employed.",
+ 	articalLink:"http://www.csrwire.com/press_releases/33252-Sheetz-Named-Among-Best-Places-to-Work-in-PA-for-10th-Year-in-a-Row",
+ 	imagePath:"images/RA.jpg",
+ 	discription:"ALTOONA, Pa., Oct. 31 /CSRwire/ - /PRNewswire/ - Sheetz, Inc., announced today it has been named one of 2011's Best Places to Work in Pennsylvania. This is the tenth year in a row Sheetz has made the list as part of a statewide employer recognition program sponsored by The Pennsylvania Foundation, the Pennsylvania Department of Community and Economic Development and the Central Penn Business Journal. Sheetz is one of only three companies to have the honor of making the list for ten straight years. The awards program, created in 2000, is one of the first statewide programs of its kind in the country to recognize the best places to be employed."
+ },{
+ 	id:095,
+ 	year:2016,
+ 	catalog:["Corporate Social Responsibility", "Ratings & Awards"],
+ 	author:"Engage for Good",
+ 	title:"Submission Period Now Open for 2017 Halo Awards",
+ 	article:"NEW YORK, Dec. 30 /CSRwire/ - Whether you call it CSR, purpose, cause marketing, social good, social impact, shared value or some other name, it’s time to submit your 2016 programs that do well by doing good to the Halo Awards. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/39582-Submission-Period-Now-Open-for-2017-Halo-Awards",
+ 	imagePath:"images/RA.jpg",
+ 	discription:"NEW YORK, Dec. 30 /CSRwire/ - Whether you call it CSR, purpose, cause marketing, social good, social impact, shared value or some other name, it’s time to submit your 2016 programs that do well by doing good to the Halo Awards. "
+ },{
+ 	id:096,
+ 	year:2007,
+ 	catalog:["Ratings & Awards", "Corporate Social Responsibility"],
+ 	author:"Innovest Strategic Value Advisors",
+ 	title:"Innovest Recognized by UNEP-FI for Carbon Work",
+ 	article:"NEW YORK, LONDON, TORONTO, PARIS, SAN FRANCISCO, SYDNEY - November 5, 2007 - Innovest Strategic Value Advisors is pleased to announce that the UN Environment Program's Finance Initiative has selected Innovest as the recipient of the 'Innovation and Contribution to Carbon Finance' Award. Innovest received the special award at the United Nations Environment Program Financial Initiative (UNEP-FI) Global Roundtable in Melbourne, Australia on Oct 24.",
+ 	articalLink:"http://www.csrwire.com/press_releases/23021-Innovest-Recognized-by-UNEP-FI-for-Carbon-Work",
+ 	imagePath:"images/RA.jpg",
+ 	discription:"NEW YORK, LONDON, TORONTO, PARIS, SAN FRANCISCO, SYDNEY - November 5, 2007 - Innovest Strategic Value Advisors is pleased to announce that the UN Environment Program's Finance Initiative has selected Innovest as the recipient of the 'Innovation and Contribution to Carbon Finance' Award. Innovest received the special award at the United Nations Environment Program Financial Initiative (UNEP-FI) Global Roundtable in Melbourne, Australia on Oct 24."
+ },{
+ 	id:097,
+ 	year:2016,
+ 	catalog:["Philanthropy & Corporate Contributions", "Corporate Social Responsibility"],
+ 	author:"Duke Energy",
+ 	title:"Duke Energy Indiana Helps Local Families Stay Warm During Winter",
+ 	article:"Customers who need help paying their electricity bills can receive up to $300 toward their bill.",
+ 	articalLink:"http://www.csrwire.com/press_releases/39569-Duke-Energy-Indiana-Helps-Local-Families-Stay-Warm-During-Winter",
+ 	imagePath:"images/PCC.jpg",
+ 	discription:"Customers who need help paying their electricity bills can receive up to $300 toward their bill."
+ },{
+ 	id:098,
+ 	year:2015,
+ 	catalog:["Philanthropy & Corporate Contributions"],
+ 	author:"xinyu",
+ 	title:"The Western Union Foundation Surpasses US$100M Charitable Global Giving Milestone",
+ 	article:"ENGLEWOOD, Colo., May 06 /CSRwire/ -  The Western Union Foundation today announced it has surpassed a major milestone, donating more than US$100 million in support to more than 2,700 non-governmental organizations (NGOs) to provide support to thousands of families and individuals in more than 135 countries and territories.",
+ 	articalLink:"http://www.csrwire.com/press_releases/37932-The-Western-Union-Foundation-Surpasses-US-100M-Charitable-Global-Giving-Milestone",
+ 	imagePath:"images/PCC.jpg",
+ 	discription:"ENGLEWOOD, Colo., May 06 /CSRwire/ -  The Western Union Foundation today announced it has surpassed a major milestone, donating more than US$100 million in support to more than 2,700 non-governmental organizations (NGOs) to provide support to thousands of families and individuals in more than 135 countries and territories."
+ },{
+ 	id:099,
+ 	year:2011,
+ 	catalog:["Philanthropy & Corporate Contributions", "Health & Wellness"],
+ 	author:"Procter & Gamble",
+ 	title:"Secret Extends Partnership With Girls on the Run Giving $200,000 Grant to Help Promote Confident, Fearless Young Women",
+ 	article:"CINCINNATI, May 12 /CSRwire/ - /PRNewswire/ - What do a deodorant brand and a non-profit that promotes self-respect through running have in common? Both share a deep passion for encouraging and celebrating confident, fearless young women ... and they've agreed to join forces, once again, to maximize their impact.",
+ 	articalLink:"http://www.csrwire.com/press_releases/32205-Secret-Extends-Partnership-With-Girls-on-the-Run-Giving-200-000-Grant-to-Help-Promote-Confident-Fearless-Young-Women",
+ 	imagePath:"images/PCC.jpg",
+ 	discription:"CINCINNATI, May 12 /CSRwire/ - /PRNewswire/ - What do a deodorant brand and a non-profit that promotes self-respect through running have in common? Both share a deep passion for encouraging and celebrating confident, fearless young women ... and they've agreed to join forces, once again, to maximize their impact."
+ },{
+ 	id:100,
+ 	year:2000,
+ 	catalog:["Philanthropy & Corporate Contributions"],
+ 	author:"Microsoft",
+ 	title:"Microsoft Grants Increase Technology Access, Training for Students At African-American and Hispanic Universities Across the Nation",
+ 	article:"Cash and Software Donations to 11 Universities Will Enhance Educational and Employment Opportunities for More Than 150,000 Minority Students",
+ 	articalLink:"http://www.csrwire.com/press_releases/25077-Microsoft-Grants-Increase-Technology-Access-Training-for-Students-At-African-American-and-Hispanic-Universities-Across-the-Nation",
+ 	imagePath:"images/PCC.jpg",
+ 	discription:"Cash and Software Donations to 11 Universities Will Enhance Educational and Employment Opportunities for More Than 150,000 Minority Students"
+ },{
+ 	id:101,
+ 	year:2016,
+ 	catalog:["Research, Reports & Publications", "Human Rights"],
+ 	author:"Ethical Corporation",
+ 	title:"Human Rights Challenges for Business in 2017 – Complementary Briefing",
+ 	article:"LONDON, Dec. 14 /CSRwire/ - Claiming ignorance is not an option anymore and Human rights standards and due diligence demand is just increasing. But how is the landscape evolving, and what does it mean for corporate risk?",
+ 	articalLink:"http://www.csrwire.com/press_releases/39530-Human-Rights-Challenges-for-Business-in-2017-Complementary-Briefing",
+ 	imagePath:"images/HR.jpg",
+ 	discription:"LONDON, Dec. 14 /CSRwire/ - Claiming ignorance is not an option anymore and Human rights standards and due diligence demand is just increasing. But how is the landscape evolving, and what does it mean for corporate risk?"
+ },{
+ 	id:102,
+ 	year:2013,
+ 	catalog:["Corporate Social Responsibility", "Human Rights"],
+ 	author:"Pentair plc",
+ 	title:"Pentair Announces Clinton Global Initiative Commitment to Action",
+ 	article:"NEW YORK, Sep. 24 /CSRwire/ - Pentair Ltd. (NYSE: PNR), a global water, fluid, thermal management and equipment protection company, announced today at the Clinton Global Initiative (CGI) Annual Meeting its Commitment to Action to address the safe water needs for the people in Kibera, an impoverished settlement in Nairobi, Kenya. In doing so, it will help reduce the number of residents who suffer from water-borne illnesses, which is the leading cause of death around the world.",
+ 	articalLink:"http://www.csrwire.com/press_releases/36158-Pentair-Announces-Clinton-Global-Initiative-Commitment-to-Action",
+ 	imagePath:"images/HR.jpg",
+ 	discription:"NEW YORK, Sep. 24 /CSRwire/ - Pentair Ltd. (NYSE: PNR), a global water, fluid, thermal management and equipment protection company, announced today at the Clinton Global Initiative (CGI) Annual Meeting its Commitment to Action to address the safe water needs for the people in Kibera, an impoverished settlement in Nairobi, Kenya. In doing so, it will help reduce the number of residents who suffer from water-borne illnesses, which is the leading cause of death around the world."
+ },{
+ 	id:103,
+ 	year:2010,
+ 	catalog:["Corporate Social Responsibility", "Human Rights"],
+ 	author:"The David Pakman Show",
+ 	title:"Midweek Politics Makes National Headlines with Corporate Responsibility & Human Rights Coverage",
+ 	article:"NORTHAMPTON, Mass., May 24 /CSRwire/ - The nationally syndicated Midweek Politics with David Pakman has made national headlines during the Spring of 2010 with a number of corporate responsibility and human rights experts, combined with a denial-of-service attack coming as the result of a controversial interview. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/29681-Midweek-Politics-Makes-National-Headlines-with-Corporate-Responsibility-Human-Rights-Coverage",
+ 	imagePath:"images/HR.jpg",
+ 	discription:"NORTHAMPTON, Mass., May 24 /CSRwire/ - The nationally syndicated Midweek Politics with David Pakman has made national headlines during the Spring of 2010 with a number of corporate responsibility and human rights experts, combined with a denial-of-service attack coming as the result of a controversial interview. "
+ },{
+ 	id:104,
+ 	year:2001,
+ 	catalog:["Human Rights"],
+ 	author:"Suncor Energy ",
+ 	title:"Suncor Oil Sands Achieves Goal for Aboriginal Business Development",
+ 	article:"Suncor Energy announced today it has nearly doubled its annual target for aboriginal business development at its Oil Sands operation at Fort McMurray, and is close to achieving its target for aboriginal employment in its Oil Sands workforce.",
+ 	articalLink:"http://www.csrwire.com/press_releases/24011-Suncor-Oil-Sands-Achieves-Goal-for-Aboriginal-Business-Development",
+ 	imagePath:"images/HR.jpg",
+ 	discription:"Suncor Energy announced today it has nearly doubled its annual target for aboriginal business development at its Oil Sands operation at Fort McMurray, and is close to achieving its target for aboriginal employment in its Oil Sands workforce."
+ },{
+ 	id:105,
+ 	year:2016,
+ 	catalog:["Ratings & Awards", "Human Resources & Diversity"],
+ 	author:"Blue Cross Blue Shield Association",
+ 	title:"CareFirst Earns Top Rating For Workplace Equality From Human Rights Campaign",
+ 	article:"BALTIMORE, Dec. 09 /CSRwire/ - CareFirst BlueCross BlueShield (CareFirst), the region's largest health insurer, has earned a top score of 100 percent from the Human Rights Campaign (HRC) on the organization's 2017 Corporate Equality Index (CEI).",
+ 	articalLink:"http://www.csrwire.com/press_releases/39526-CareFirst-Earns-Top-Rating-For-Workplace-Equality-From-Human-Rights-Campaign",
+ 	imagePath:"images/HRD.jpg",
+ 	discription:"BALTIMORE, Dec. 09 /CSRwire/ - CareFirst BlueCross BlueShield (CareFirst), the region's largest health insurer, has earned a top score of 100 percent from the Human Rights Campaign (HRC) on the organization's 2017 Corporate Equality Index (CEI)."
+ },{
+ 	id:106,
+ 	year:2014,
+ 	catalog:["Ratings & Awards, Human Resources & Diversity"],
+ 	author:"Wyndham Worldwide Corporation",
+ 	title:"Wyndham Worldwide Named Outstanding Employer by New Jersey Business & Industry Association",
+ 	article:"PARSIPPANY, N.J., Oct. 17 /CSRwire/ - (Marketwired) - Wyndham Worldwide (NYSE: WYN), one of the world's largest hospitality companies, received the 2014 Award of Excellence for Outstanding Employer from New Jersey Business & Industry Association. This prestigious award is presented annually to a company that demonstrates a creative and forward-looking approach to managing its human resources. Wyndham Worldwide was recognized for its Be Well program, a holistic approach to associate health and wellness.",
+ 	articalLink:"http://www.csrwire.com/press_releases/37446-Wyndham-Worldwide-Named-Outstanding-Employer-by-New-Jersey-Business-Industry-Association",
+ 	imagePath:"images/HRD.jpg",
+ 	discription:"PARSIPPANY, N.J., Oct. 17 /CSRwire/ - (Marketwired) - Wyndham Worldwide (NYSE: WYN), one of the world's largest hospitality companies, received the 2014 Award of Excellence for Outstanding Employer from New Jersey Business & Industry Association. This prestigious award is presented annually to a company that demonstrates a creative and forward-looking approach to managing its human resources. Wyndham Worldwide was recognized for its Be Well program, a holistic approach to associate health and wellness."
+ },{
+ 	id:107,
+ 	year:2011,
+ 	catalog:["Sustainability", "Human Resources & Diversity"],
+ 	author:"PwC US",
+ 	title:"Andrew Winston to Bolster PwC's Sustainable Business Solutions Practice",
+ 	article:"NEW YORK, Sep. 01 /CSRwire/ - /PRNewswire/ - PwC US today announced that prominent sustainability business consultant Andrew Winston will act as an independent Sustainability Advisor to PwC. Winston, founder of Winston Eco-Strategies, is a recognized expert on green business, helping companies use environmental strategy to expand, create enduring value and build stronger relationships with employees, customers and other stakeholders.",
+ 	articalLink:"http://www.csrwire.com/press_releases/32834-Andrew-Winston-to-Bolster-PwC-s-Sustainable-Business-Solutions-Practice",
+ 	imagePath:"images/HRD.jpg",
+ 	discription:"NEW YORK, Sep. 01 /CSRwire/ - /PRNewswire/ - PwC US today announced that prominent sustainability business consultant Andrew Winston will act as an independent Sustainability Advisor to PwC. Winston, founder of Winston Eco-Strategies, is a recognized expert on green business, helping companies use environmental strategy to expand, create enduring value and build stronger relationships with employees, customers and other stakeholders."
+ },{
+ 	id:108,
+ 	year:2000,
+ 	catalog:["Human Resources & Diversity"],
+ 	author:"Microsoft",
+ 	title:"The United Negro College Fund Announces Technology Enhancement Capital Campaign",
+ 	article:"Microsoft, IBM, AT&T and UNCF Announce Partnership Valued at More Than $130 Million to Close the 'Digital Divide' in Higher Education",
+ 	articalLink:"http://www.csrwire.com/press_releases/25078-The-United-Negro-College-Fund-Announces-Technology-Enhancement-Capital-Campaign",
+ 	imagePath:"images/HRD.jpg",
+ 	discription:"Microsoft, IBM, AT&T and UNCF Announce Partnership Valued at More Than $130 Million to Close the 'Digital Divide' in Higher Education"
+ },{
+ 	id:109,
+ 	year:2016,
+ 	catalog:["Health & Wellness", "Corporate Social Responsibility"],
+ 	author:"Mary Kay",
+ 	title:"Mary Kay Inc. Hosts Inaugural Men Don’t Look Away Summit to Engage More Men in Efforts to End Domestic Violence",
+ 	article:"DALLAS, Texas , Nov. 07 /CSRwire/ - To inspire a national dialogue about the importance of engaging more men in the effort to prevent and end domestic violence, Mary Kay Inc. convened the inaugural Men Don’t Look Away Summit. Attendees, including domestic violence advocates from across the country, received a framework to engage men as advocates, volunteers and ambassadors at a grassroots level, learning to activate this powerful group of change-makers within their local organizations.    ",
+ 	articalLink:"http://www.csrwire.com/press_releases/39432-Mary-Kay-Inc-Hosts-Inaugural-Men-Don-t-Look-Away-Summit-to-Engage-More-Men-in-Efforts-to-End-Domestic-Violence",
+ 	imagePath:"images/HW.jpg",
+ 	discription:"DALLAS, Texas , Nov. 07 /CSRwire/ - To inspire a national dialogue about the importance of engaging more men in the effort to prevent and end domestic violence, Mary Kay Inc. convened the inaugural Men Don’t Look Away Summit. Attendees, including domestic violence advocates from across the country, received a framework to engage men as advocates, volunteers and ambassadors at a grassroots level, learning to activate this powerful group of change-makers within their local organizations.    "
+ },{
+ 	id:110,
+ 	year:2013,
+ 	catalog:["Health & Wellness", "Corporate Social Responsibility"],
+ 	author:"General Mills",
+ 	title:"Nearly Three Quarters of General Mills' U.S. Retail Sales Volume Nutritionally Improved",
+ 	article:"MINNEAPOLIS, Oct. 30 /CSRwire/ - General Mills has improved the health profile of 73 percent of its U.S. Retail sales volume since 2005. These improvements include enhancing positive nutrition such as increasing protein, fiber, vitamins and minerals, or reducing limiters such as calories, sodium, sugar and fat, all while ensuring great taste. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/36330-Nearly-Three-Quarters-of-General-Mills-U-S-Retail-Sales-Volume-Nutritionally-Improved",
+ 	imagePath:"images/HW.jpg",
+ 	discription:"MINNEAPOLIS, Oct. 30 /CSRwire/ - General Mills has improved the health profile of 73 percent of its U.S. Retail sales volume since 2005. These improvements include enhancing positive nutrition such as increasing protein, fiber, vitamins and minerals, or reducing limiters such as calories, sodium, sugar and fat, all while ensuring great taste. "
+ },{
+ 	id:111,
+ 	year:2011,
+ 	catalog:["Corporate Social Responsibility", "Health & Wellness"],
+ 	author:"Merck & Co., Inc",
+ 	title:"Merck Joins Global Fight to Help Save Women's Lives",
+ 	article:"NEW YORK, Sep. 20 /CSRwire/ - 'Merck for Mothers' Joins Global Community to Apply Scientific and Business Expertise in Support of UN Goal to Decrease the Maternal Mortality Ratio by 75 Percent",
+ 	articalLink:"http://www.csrwire.com/press_releases/32936-Merck-Joins-Global-Fight-to-Help-Save-Women-s-Lives",
+ 	imagePath:"images/HW.jpg",
+ 	discription:"NEW YORK, Sep. 20 /CSRwire/ - 'Merck for Mothers' Joins Global Community to Apply Scientific and Business Expertise in Support of UN Goal to Decrease the Maternal Mortality Ratio by 75 Percent"
+ },{
+ 	id:112,
+ 	year:2000,
+ 	catalog:["Health & Wellness", "Corporate Social Responsibility"],
+ 	author:"Albertsons Safeway",
+ 	title:"Safeway Teams up with Melissa Etheridge for Month-Long Breast Cancer Public Service Campaign Aimed at Finding a Cure and Increasing Mammogram Screenings",
+ 	article:"PLEASANTON, CA, Oct. 01 /CSRwire/ - PLEASANTON, CA - October 1, 2007 - Safeway Inc. (NYSE:SWY), one of the nation's largest corporate supporters of cancer research and treatment, today launched a month-long public service campaign to help find a cure and encourage mammogram screenings and examinations for women. ",
+ 	articalLink:"http://www.csrwire.com/press_releases/24715-Safeway-Teams-up-with-Melissa-Etheridge-for-Month-Long-Breast-Cancer-Public-Service-Campaign-Aimed-at-Finding-a-Cure-and-Increasing-Mammogram-Screenings",
+ 	imagePath:"images/HW.jpg",
+ 	discription:"PLEASANTON, CA, Oct. 01 /CSRwire/ - PLEASANTON, CA - October 1, 2007 - Safeway Inc. (NYSE:SWY), one of the nation's largest corporate supporters of cancer research and treatment, today launched a month-long public service campaign to help find a cure and encourage mammogram screenings and examinations for women. "
+ }
 
 
 
