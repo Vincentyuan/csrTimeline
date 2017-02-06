@@ -62,7 +62,7 @@ function createElementByEntity(entity){
                 '<div class="col-xs-5 "> '+
                   '<div class="time-detail"> '+
                     '<p><a href="'+entity.articalLink+'"><span class="title">' + entity.title + '</span></a><span class="right close-btn">X</span></p>'+
-                    '<p class="sm">Submitted by: <span class="blue">' + entity.author + '</span></p> <p class="sm">Categories: <span class="blue">' + entity.catalog + ' </span></p>'+
+                    '<p class="sm">Submitted by: <span class="blue">' + entity.author + '</span></p> '+'<p class="sm">Categories: <span class="blue">' + entity.catalog + ' </span></p>'+
                     ' <div class="hor-line xs"></div>'+
                     '<div class="description">' + entity.discription + '</div></div> </div> </div>';
   return html;
@@ -144,4 +144,13 @@ function sortElementByYear(entityLists){
         }
     }
     return entityLists;
+}
+function saveAuthorTolocal(){
+  var authors = getPublished();
+  var str = '';
+  for (var i = 0; i < authors.length; i++) {
+    str+='\n'+authors[i];
+  }
+  localStorage.setItem('author2', authors);
+  alert("finished");
 }

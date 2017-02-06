@@ -1,5 +1,15 @@
 // this is the sample of data
 
+
+var publishedTypeList = [{
+	author :"xinyu",
+	authorType :"School"
+},{
+	author :"PSEG Power",
+	authorType :"Women"
+}
+];
+
 // 属性可以包括并不限于这些
 var csrDataList = [{
 	id: 1,

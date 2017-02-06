@@ -87,6 +87,22 @@ function getCatalogs(){
 	}
  return catalogs;
 }
+function getPublished(){
+	var catalogs = [];
+	for (var i = 0; i < csrDataList.length; i++) {
+		if(typeof (csrDataList[i].author) == 'object'){
+			var currentCatalogs = csrDataList[i].author;
+			for (var j = 0; j < currentCatalogs.length; j++) {
+				if(catalogs.indexOf(currentCatalogs[j])<0){
+					catalogs.push(currentCatalogs[j]);
+				}
+			}
+		}else if (catalogs.indexOf(csrDataList[i].author) < 0) {
+			catalogs.push(csrDataList[i].author);
+		}
+	}
+ return catalogs;
+}
 function objCopy(obj){
 	return $.extend({}, obj);
 }
