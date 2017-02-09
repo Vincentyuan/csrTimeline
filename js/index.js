@@ -54,8 +54,8 @@ $(document).ready(function () {
 });
 
 function createElementByEntity(entity){
-  var issuedByself = "(Issued by himself)";
-  var issuedByOthers = "(Not Issued by himself)";
+  var issuedByself = " (Issued by himself)";
+  var issuedByOthers = " (Not Issued by himself)";
   var issueStatus = entity.issuedByself==true?issuedByself:issuedByOthers;
   var html = ' <div class="time-block row">'+
                 '<div class="col-xs-5 ">'+
@@ -67,9 +67,9 @@ function createElementByEntity(entity){
                 '<div class="col-xs-5 "> '+
                   '<div class="time-detail"> '+
                     '<p><a href="'+entity.articalLink+'"><span class="title">' + entity.title + '</span></a><span class="right close-btn">X</span></p>'+
-                    '<p class="sm">Submitted by: <span class="blue">' + entity.author + '</span></p> '+
+                    '<p class="sm">Submitted by: <span class="blue"><a href="'+entity.authorLink+'">' + entity.author + ' </a></span></p> '+
                     '<p class="sm">Categories: <span class="blue">' + entity.catalog + ' </span></p>'+
-                    '<p class="sm"> Publisher Domain: <span class="blue"><a href="'+entity.authorLink+'">' + entity.authorType +issueStatus+ ' </a></span></p>'+
+                    '<p class="sm"> Publisher Domain: <span class="blue">' + entity.authorType +issueStatus+ '</span></p>'+
                     ' <div class="hor-line xs"></div>'+
                     '<div class="description">' + entity.discription + '</div></div> </div> </div>';
   return html;
