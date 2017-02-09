@@ -1,14 +1,605 @@
 // this is the sample of data
 
+//var csrDataList = [];
 
-var publishedTypeList = [{
+var publishedTypeListOriginal = [{
+        author: "PSEG Power",
+        authorType: "Metallurgy & Mining and Energy",
+        issuedByself: false,
+        authorLink: "	https://www.pseg.com/family/power/index.jsp	"
+    },
+    {
+        author: "	MGM Resorts International	",
+        authorType: "	Entertainment 	",
+        issuedByself: true,
+        authorLink: "	https://www.mgmresorts.com	"
+    },
+    {
+        author: "	Community Health Charities	",
+        authorType: "	Non-profit organization	",
+        issuedByself: true,
+        authorLink: "	https://corp.healthcharities.org/about-us	"
+    },
+    {
+        author: "	Business In Society	",
+        authorType: "	News and press	",
+        issuedByself: false,
+        authorLink: "	http://www.businessinsociety.net/about-us.html	"
+    },
+    {
+        author: "	Net Impact	",
+        authorType: "	Education/Training institution	",
+        issuedByself: true,
+        authorLink: "	https://www.netimpact.org/about-net-impact	"
+    },
+    {
+        author: "	SustainAbility	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://sustainability.com/who-we-are/	"
+    },
+    {
+        author: "	CITGO Petroleum Corporation	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	www.citgo.com	"
+    },
+    {
+        author: "	Amazon Defense Coalition (ADC)	",
+        authorType: "	NGO	",
+        issuedByself: false,
+        authorLink: "	https://amazondefensecoalitionwatch.wordpress.com/about-the-amazon-defense-coalition/	"
+    },
+    {
+        author: "	Holy Land Principles，  Inc	",
+        authorType: "	Non-profit organization	",
+        issuedByself: true,
+        authorLink: "	http://www.holylandprinciples.org/	"
+    },
+    {
+        author: "	World Learning	",
+        authorType: "	Non-profit organization	",
+        issuedByself: true,
+        authorLink: "	https://www.worldlearning.org/	"
+    },
+    {
+        author: "	Sustainable Brands	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://www.sustainablebrands.com	"
+    },
+    {
+        author: "	Coca-Cola HBC	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "	http://coca-colahellenic.com/	"
+    },
+    {
+        author: "	World Environment Center	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	www.wec.org/	"
+    },
+    {
+        author: "	Novartis	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	https://www.novartis.com/	"
+    },
+    {
+        author: "	International Youth Foundation	",
+        authorType: "	Non-profit organization	",
+        issuedByself: true,
+        authorLink: "	www.iyfnet.org/	"
+    },
+    {
+        author: "	AccountAbility	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	https://www.accountability.org/about-us/about-accountability/	"
+    },
+    {
+        author: "	Blackstone	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www.blackstone.com/	"
+    },
+    {
+        author: "	Global Reporting Initiative (GRI)	",
+        authorType: "	News and press	",
+        issuedByself: false,
+        authorLink: "	https://www.globalreporting.org/	"
+    },
+    {
+        author: "	Bristol-Myers Squibb Company	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	www.bms.com	"
+    },
+    {
+        author: "	Matthews Communications Media	",
+        authorType: "	News and press	",
+        issuedByself: false,
+        authorLink: "	https://www.facebook.com/pages/Matthews-Communications-Media/107864199244556	"
+    },
+    {
+        author: "	OppenheimerFunds	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www.oppenheimerfunds.com/	"
+    },
+    {
+        author: "	Initiative for a Competitive Inner City	",
+        authorType: "	News and press	",
+        issuedByself: false,
+        authorLink: "	http://icic.org/	"
+    },
+    {
+        author: "	MYTILINEOS Holdings S.A.	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	http://www.mytilineos.gr/en-us/home/mytilineos-holdings-corporate-website	"
+    },
+    {
+        author: "	Boston College Center for Corporate Citizenship	",
+        authorType: "	Education/Training institution	",
+        issuedByself: true,
+        authorLink: "	http://ccc.bc.edu/	"
+    },
+    {
+        author: "	JUST Capital	",
+        authorType: "	Education/Training institution	",
+        issuedByself: true,
+        authorLink: "	https://justcapital.com/	"
+    },
+    {
+        author: "	Amazon Watch	",
+        authorType: "	Non-profit organization	",
+        issuedByself: true,
+        authorLink: "	amazonwatch.org	"
+    },
+    {
+        author: "	CA Technologies	",
+        authorType: "	Technology company	",
+        issuedByself: true,
+        authorLink: "	https://www.ca.com/us.html	"
+    },
+    {
+        author: "	Subaru of America, Inc.	",
+        authorType: "	Manufacture	",
+        issuedByself: true,
+        authorLink: "	https://www.subaru.com/	"
+    },
+    {
+        author: "	McKinney Advisory Group	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://mckinneyadvisory.com/	"
+    },
+    {
+        author: "	First Access	",
+        authorType: "	Technology company	",
+        issuedByself: true,
+        authorLink: "	https://www.firstaccessmarket.com	"
+    },
+    {
+        author: "	U.S. Chamber of Commerce Foundation Corporate Citizenship Center	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	https://www.uschamberfoundation.org/corporate-citizenship-center	"
+    },
+    {
+        author: "	Business Call to Action	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	www.businesscalltoaction.org	"
+    },
+    {
+        author: "	JetBlue Airways	",
+        authorType: "	Traffic	",
+        issuedByself: true,
+        authorLink: "	www.jetblue-airways.opodo.fr	"
+    },
+    {
+        author: "	Armstrong World Industries, Inc	",
+        authorType: "	Manufacture	",
+        issuedByself: true,
+        authorLink: "	Armstrongceilings.com	"
+    },
+    {
+        author: "	Starbucks Corporation	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "www.starbucks.com"
+    },
+    {
+        author: "	Bain & Company	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	www.bain.com/	"
+    },
+    {
+        author: "	Ethical Corporation	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	www.ethicalcorp.com/	"
+    },
+    {
+        author: "	National CSR Awards	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	https://nationalcsrawards.co.uk/	"
+    },
+    {
+        author: "	ZOLD Eco	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	http://www.zold.ca	"
+    },
+    {
+        author: "	Sales Agency	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	www.sales4sales.com/‎	"
+    },
+    {
+        author: "	Dean's Beans Organic Coffee Company	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "	https://deansbeans.com/	"
+    },
+    {
+        author: "	Sodexo	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	www.sodexo.com/	"
+    },
+    {
+        author: "	Unilever	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	https://www.unilever.com/	"
+    },
+    {
+        author: "	Wells Fargo & Company	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www.wellsfargo.com/	"
+    },
+    {
+        author: "	Ethical Markets Media	",
+        authorType: "	Media	",
+        issuedByself: true,
+        authorLink: "	www.ethicalmarkets.com/	"
+    },
+    {
+        author: "	JPMorgan Chase & Co.	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	http://www.ethicalmarkets.com	"
+    },
+    {
+        author: "	FOLIOfn, Inc.	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	www.folioinvesting.com	"
+    },
+    {
+        author: "	Arby's Restaurant Group	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "arbys.com"
+    },
+    {
+        author: "	General Motors Corporation	",
+        authorType: "	Manufacture	",
+        issuedByself: true,
+        authorLink: "	http://www.gm.com/index.html	"
+    },
+    {
+        author: "	Takeda Pharmaceuticals North America	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	http://www.takeda.us/	"
+    },
+    {
+        author: "	Brookfield Office Properties	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www.brookfieldproperties.com/	"
+    },
+    {
+        author: "	Seventh Generation	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	https://www.seventhgeneration.com/	"
+    },
+    {
+        author: "	Emerald Brand	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	http://www.emeraldbrand.com/	"
+    },
+    {
+        author: "	Green America	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	http://www.greenamerica.org/about/	"
+    },
+    {
+        author: "	Sue Bee Honey	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "	https://www.suebee.com/	"
+    },
+    {
+        author: "	Swarovski	",
+        authorType: "	Jewelry	",
+        issuedByself: true,
+        authorLink: "	http://www.swarovski.com/Web_FR/fr/index	"
+    },
+    {
+        author: "	Points of Light	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	http://www.pointsoflight.org/	"
+    },
+    {
+        author: "	Deloitte	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www2.deloitte.com/fr/fr.html	"
+    },
+    {
+        author: "	MetaVu	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://www.metavu.net/	"
+    },
+    {
+        author: "	Benevity	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	http://www.benevity.com/	"
+    },
+    {
+        author: "	Global e-Sustainability Initiative (GeSI)	",
+        authorType: "	Technology company	",
+        issuedByself: true,
+        authorLink: "	http://gesi.org/About_ICT_sustainability	"
+    },
+    {
+        author: "	Sustainable Minds LLC	",
+        authorType: "	Technology company	",
+        issuedByself: true,
+        authorLink: "	http://www.sustainableminds.com/	"
+    },
+    {
+        author: "	The Bee Informed Partnership	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	https://beeinformed.org/	"
+    },
+    {
+        author: "	Alcoa Inc.	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	http://www.alcoa.com/global/en/home.asp	"
+    },
+    {
+        author: "	Kimberly-Clark Corporation	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	http://www.kimberly-clark.com/ourcompany/overview.aspx	"
+    },
+    {
+        author: "	Sherpa Sustainability Institute	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	http://www.sherpabcorp.com/	"
+    },
+    {
+        author: "	Global Sustain Limited (Ltd.)	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://globalsustain.org/en	"
+    },
+    {
+        author: "	Calvert	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	http://www.calvert.com/	"
+    },
+    {
+        author: "	EIRIS Conflict Risk Network	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	http://www.eiris.org/about-us/eiris-conflict-risk-network/	"
+    },
+    {
+        author: "	Barrick Gold Corporation	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	http://www.barrick.com/	"
+    },
+    {
+        author: "	B Lab	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	https://www.bcorporation.net/what-are-b-corps/about-b-lab	"
+    },
+    {
+        author: "	Oliver Russell	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://www.oliverrussell.com/	"
+    },
+    {
+        author: "	Social Enterprise Alliance	",
+        authorType: "	NGO	",
+        issuedByself: true,
+        authorLink: "	https://socialenterprise.us/	"
+    },
+    {
+        author: "	UL	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://www.ul.com/	"
+    },
+    {
+        author: "	Article13 Group Ltd	",
+        authorType: "	News and press	",
+        issuedByself: false,
+        authorLink: "	http://www.article13.com/	"
+    },
+    {
+        author: "	Innovest Strategic Value Advisors, Inc.	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	http://www.innovestgroup.com/	"
+    },
+    {
+        author: "	Allstate Corporation	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www.allstate.com/	"
+    },
+    {
+        author: "	3Degrees	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	https://3degreesinc.com/	"
+    },
+    {
+        author: "	Solar Center	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	http://solar-center.lu/en/company.htm	"
+    },
+    {
+        author: "	Nurture New York's Nature	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://www.nnyn.org/	"
+    },
+    {
+        author: "	Tech Museum of Innovation	",
+        authorType: "	Education/Training institution	",
+        issuedByself: true,
+        authorLink: "	https://www.thetech.org	"
+    },
+    {
+        author: "	Sheetz	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "	https://www.sheetz.com/	"
+    },
+    {
+        author: "	Engage for Good	",
+        authorType: "	Consultant agency	",
+        issuedByself: false,
+        authorLink: "	http://engageforgood.com/	"
+    },
+    {
+        author: "	Innovest Strategic Value Advisors	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	http://www.innovestgroup.com/	"
+    },
+    {
+        author: "	Duke Energy	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	https://www.duke-energy.com/home	"
+    },
+    {
+        author: "	Procter & Gamble	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	https://www.pg.com/	"
+    },
+    {
+        author: "	Microsoft	",
+        authorType: "	Technology company	",
+        issuedByself: true,
+        authorLink: "	https://www.microsoft.com/	"
+    },
+    {
+        author: "	Pentair plc	",
+        authorType: "	Consultant agency	",
+        issuedByself: true,
+        authorLink: "	http://www.pentair.com/	"
+    },
+    {
+        author: "	The David Pakman Show	",
+        authorType: "	News and press	",
+        issuedByself: true,
+        authorLink: "	https://davidpakman.com/	"
+    },
+    {
+        author: "	Suncor Energy 	",
+        authorType: "	Metallurgy & Mining and Energy	",
+        issuedByself: true,
+        authorLink: "	http://www.suncor.com/	"
+    },
+    {
+        author: "	Blue Cross Blue Shield Association	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	https://www.bcbs.com/	"
+    },
+    {
+        author: "	Wyndham Worldwide Corporation	",
+        authorType: "	Hospitality	",
+        issuedByself: true,
+        authorLink: "	http://www.wyndhamworldwide.com/	"
+    },
+    {
+        author: "	PwC US	",
+        authorType: "	Bank, Insurance and Finance	",
+        issuedByself: true,
+        authorLink: "	https://www.pwc.com/	"
+    },
+    {
+        author: "	Mary Kay	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	https://www.marykay.com/	"
+    },
+    {
+        author: "	General Mills	",
+        authorType: "	Food industry	",
+        issuedByself: true,
+        authorLink: "	https://www.generalmills.com/	"
+    },
+    {
+        author: "	Merck & Co., Inc	",
+        authorType: "	Pharmaceutical/Chemistry company/ Healthcare	",
+        issuedByself: true,
+        authorLink: "	http://www.merck.com/index.html	"
+    },
+    {
+        author: "	Albertsons Safeway	",
+        authorType: "	Retail & Grocery	",
+        issuedByself: true,
+        authorLink: "	http://www.albertsons.com/	"
+    }
+];
+
+
+var publishedTypeList = FormatData(publishedTypeListOriginal);
+
+/*[{
 	author :"xinyu",
-	authorType :"School"
+	authorType :"School",
+	issuedByself:true,
+	authorLink :""
 },{
 	author :"PSEG Power",
-	authorType :"Women"
+	authorType :"Women",
+	authorLink:""
 }
-];
+];*/
 
 // 属性可以包括并不限于这些
 var csrDataList = [{
@@ -1212,3 +1803,25 @@ var csrDataList = [{
 
 
 		  ];
+
+for (var i = 0; i < csrDataList.length; i++) {
+	for (var j = 0; j < publishedTypeList.length; j++) {
+		if(csrDataList[i].author == publishedTypeList[j].author){
+			csrDataList[i].authorType = publishedTypeList[j].authorType;
+			csrDataList[i].authorLink = publishedTypeList[j].authorLink;
+			csrDataList[i].issuedByself = publishedTypeList[j].issuedByself;
+		}
+	}
+}
+
+function FormatData(originalList){
+	for (var i = 0; i < originalList.length; i++) {
+		originalList[i].author=removeSpace(originalList[i].author);
+		originalList[i].authorType=removeSpace(originalList[i].authorType);
+		originalList[i].authorLink=removeSpace(originalList[i].authorLink);
+	}
+	return originalList;
+}
+function removeSpace(str){
+	return str.trim();
+}

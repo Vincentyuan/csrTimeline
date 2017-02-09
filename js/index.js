@@ -2,6 +2,8 @@ var selectedCatalog = [];
 var yearStart = -1;
 var yearEnd = -1;
 var searchContext = "";
+var selectdType = [];
+var mediaOrNot = [];
 
 $(document).ready(function () {
      $(document).on('mouseover', ".time-point", function () {
@@ -52,6 +54,9 @@ $(document).ready(function () {
 });
 
 function createElementByEntity(entity){
+  var issuedByself = "(Issued by himself)";
+  var issuedByOthers = "(Not Issued by himself)";
+  var issueStatus = entity.issuedByself==true?issuedByself:issuedByOthers;
   var html = ' <div class="time-block row">'+
                 '<div class="col-xs-5 ">'+
                   '<span class="right" style="padding-top: 9px;">' + entity.year + '</span>'+
@@ -62,7 +67,9 @@ function createElementByEntity(entity){
                 '<div class="col-xs-5 "> '+
                   '<div class="time-detail"> '+
                     '<p><a href="'+entity.articalLink+'"><span class="title">' + entity.title + '</span></a><span class="right close-btn">X</span></p>'+
-                    '<p class="sm">Submitted by: <span class="blue">' + entity.author + '</span></p> '+'<p class="sm">Categories: <span class="blue">' + entity.catalog + ' </span></p>'+
+                    '<p class="sm">Submitted by: <span class="blue">' + entity.author + '</span></p> '+
+                    '<p class="sm">Categories: <span class="blue">' + entity.catalog + ' </span></p>'+
+                    '<p class="sm"> Publisher Domain: <span class="blue"><a href="'+entity.authorLink+'">' + entity.authorType +issueStatus+ ' </a></span></p>'+
                     ' <div class="hor-line xs"></div>'+
                     '<div class="description">' + entity.discription + '</div></div> </div> </div>';
   return html;
@@ -72,6 +79,10 @@ function initFilterBar(){
   var catalogList = getCatalogs();
   for (var i = 0; i < catalogList.length; i++) {
     $("#catalogsTobeSelected").append('<option>'+catalogList[i]+'</option>');
+  }
+  var typeList = getPublishedType();
+  for (var i = 0; i < typeList.length; i++) {
+    $("#publishorTobeSelected").append('<option>'+typeList[i]+'</option>');
   }
 }
 
@@ -92,6 +103,8 @@ function filterApply(){
   yearEnd =  parseInt($("#yearEnd")["0"].value) ||-1;
   searchContext = $("#searchText")["0"].value;
   selectedCatalog = getSelectValues($("#catalogsTobeSelected"));
+  selectdType = getSelectValues($("#publishorTobeSelected"));
+  mediaOrNot = getSelectValuesFromCheckBox();
   removeAllTimeBlocks();
   loadData();
 }
@@ -102,6 +115,8 @@ function clearFilter(){
   $("#yearEnd")["0"].value = "";
   $("#searchText")["0"].value = "";
   cancelSeleced($("#catalogsTobeSelected"));
+
+  cancelSelecedBox();
 
   removeAllTimeBlocks();
   initFilterBar();
@@ -149,8 +164,30 @@ function saveAuthorTolocal(){
   var authors = getPublished();
   var str = '';
   for (var i = 0; i < authors.length; i++) {
-    str+='\n'+authors[i];
+    str+='-'+authors[i];
   }
-  localStorage.setItem('author2', authors);
+  localStorage.setItem('author3', str);
   alert("finished");
+}
+
+function getSelectValuesFromCheckBox(){
+  var medias = [];
+
+  if ($('#NonMeida').is(":checked"))
+  {
+    //medias.push($('#NonMedia').val());
+    medias.push("NonMedia");
+  }
+  if ($('#Media').is(":checked"))
+  {
+    //medias.push($('#Media').val());
+    medias.push("Media");
+  }
+  return medias;
+}
+function cancelSelecedBox(){
+  //document.getElementById("Media").setAttribute("unchecked","");
+  document.getElementById("Media").setAttribute("unchecked","")
+  document.getElementById("Media").setAttribute("unchecked","")
+  //document.getElementById("NonMedia").setAttribute("unchecked","");
 }
