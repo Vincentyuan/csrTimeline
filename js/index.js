@@ -172,22 +172,23 @@ function saveAuthorTolocal(){
 
 function getSelectValuesFromCheckBox(){
   var medias = [];
-
-  if ($('#NonMeida').is(":checked"))
+  if (document.getElementById("Media").checked == true)
   {
     //medias.push($('#NonMedia').val());
+    medias.push("Media");
+  }else if(document.getElementById("Media").checked == false){
     medias.push("NonMedia");
   }
-  if ($('#Media').is(":checked"))
-  {
-    //medias.push($('#Media').val());
-    medias.push("Media");
-  }
+  // if (document.getElementById("NotMedia").checked == true)
+  // {
+  //   //medias.push($('#Media').val());
+  //   medias.push("NonMedia");
+  // }
   return medias;
 }
 function cancelSelecedBox(){
   //document.getElementById("Media").setAttribute("unchecked","");
-  document.getElementById("Media").setAttribute("unchecked","")
-  document.getElementById("Media").setAttribute("unchecked","")
+  document.getElementById("Media").checked=false;
+  //document.getElementById("NotMedia").checked=false;
   //document.getElementById("NonMedia").setAttribute("unchecked","");
 }

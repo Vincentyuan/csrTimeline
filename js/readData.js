@@ -18,7 +18,7 @@ function isValidEntry(entity){//entity,yearStart,yearEnd,catalog,searchText){
 	var isYearValid = true;
 	var isCatalogValid = true;
 	var isSearchValid = true;
-	//var isValidPublishedType = true;
+	var isValidMediaOrNotType = true;
 
 	if (selectdType.length == 0 || selectdType.indexOf(entity.authorType)> -1) {
 		//check catalog valid
@@ -71,7 +71,16 @@ function isValidEntry(entity){//entity,yearStart,yearEnd,catalog,searchText){
 				isSearchValid = false;
 			}
 		}
-		return isYearValid&&isCatalogValid&&isSearchValid;
+
+		if(mediaOrNot.length ==1 ){
+			if(mediaOrNot[0]=="Media" && entity.issuedByself == true){
+				isValidMediaOrNotType = false;
+			}
+			if(mediaOrNot[0] == "NonMedia" && entity.issuedByself == false){
+				isValidMediaOrNotType = false;
+			}
+		}
+		return isYearValid&&isCatalogValid&&isSearchValid&&isValidMediaOrNotType;
 	}else {
 		return false;
 	}
